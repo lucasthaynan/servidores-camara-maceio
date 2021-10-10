@@ -10,8 +10,8 @@ O programa navega pela lista com todos os pagamentos dos servidores e vereadores
 * **re** 
 * **pandas**
 
-Necessária instalar:
-* **tqdm** `pip install tqdm`
-* **gspread** `pip install gspread`
-* **google.oauth2** `pip install google.auth`
+Necessário instalar:
+* **tqdm** `pip install tqdm`- Adiciona uma barra de progresso ao executar um for
+* **gspread** `pip install gspread` - Conecta com planilhas do Google Sheets
+* **google.oauth2** `pip install google.auth` - Permite acessar APIs do Google
 
