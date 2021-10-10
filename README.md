@@ -2,7 +2,7 @@
 Script que raspa os dados da [página de pagamentos e subsídios](https://www.maceio.al.leg.br/transparencia/portal/salarios-subsidios) dos servidores e vereadores da Câmara Municipal de Maceió e exporta as informações para uma planilha do Google Sheets.
 
 ## Metodologia 
-O programa navega pela lista de páginas do site de transparência com as informações dos pagamentos e extrai os dados de cada um dos servidores da Câmara Municipal. 
+O programa [`web_scraping_servidores_camara_maceio.ipynb`](https://github.com/lucasthaynan/servidores-camara-maceio/blob/main/web_scraping_servidores_camara_maceio.ipynb) navega pela lista de páginas do site de transparência com as informações dos pagamentos e extrai os dados de cada um dos servidores da Câmara Municipal. 
 Como exemplo, para coletar os dados de janeiro a setembro de 2021 é necessário passar **283** como parâmetro da função `pega_links_servidores()`. Assim, serão percorridas as páginas de 1 a 283 e extraídos os todos os dados deste período.
 
 ## Bibliotecas
