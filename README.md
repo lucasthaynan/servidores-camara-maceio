@@ -12,7 +12,7 @@ Como exemplo, para coletar os dados de janeiro a setembro de 2021 é necessário
 * **pandas**
 
 Necessário instalar:
-* **tqdm** `pip install tqdm`- Adiciona uma barra de progresso ao executar um for. Muito útil para saber o tempo médio para execução do código;
+* **tqdm** `pip install tqdm`- Adiciona uma barra de progresso ao executar um `for`.útil para saber a estimativa do tempo total para execução do código;
 * **gspread** `pip install gspread` - Conecta com planilhas do Google Sheets;
 * **google.oauth2** `pip install google.auth` - Permite acessar APIs do Google.
 
