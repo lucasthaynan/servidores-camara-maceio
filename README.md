@@ -12,12 +12,12 @@ Como exemplo, para coletar os dados de janeiro a setembro de 2021 é necessário
 * **pandas**
 
 Necessário instalar:
-* **tqdm** `pip install tqdm`- Adiciona uma barra de progresso ao executar um for
-* **gspread** `pip install gspread` - Conecta com planilhas do Google Sheets
-* **google.oauth2** `pip install google.auth` - Permite acessar APIs do Google
+* **tqdm** `pip install tqdm`- Adiciona uma barra de progresso ao executar um for. Muito útil para saber o tempo médio para execução do código;
+* **gspread** `pip install gspread` - Conecta com planilhas do Google Sheets;
+* **google.oauth2** `pip install google.auth` - Permite acessar APIs do Google.
 
 ## Sobre
 Trabalho final do Master em Jornalismo de Dados, Automação e Data Storytelling, do Insper das disciplinas:
-* **Pensamento Computacional** - elaboração do programa -, professor Álvaro Justen (Turicas)
-* **Transparência, reprodutibilidade e uso éticos dos dados** - documentação do projeto, professoras Natália Mazotte e Carla Vieira
+* **Pensamento Computacional** - elaboração do programa -, professor Álvaro Justen (Turicas);
+* **Transparência, reprodutibilidade e uso éticos dos dados** - documentação do projeto, professoras Natália Mazotte e Carla Vieira.
 
