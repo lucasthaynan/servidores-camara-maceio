@@ -3,7 +3,7 @@ Script que raspa os dados da [página de pagamentos e subsídios](https://www.ma
 
 ## Metodologia 
 O programa navega pela lista de páginas do site de transparência com as informações dos pagamentos e extrai os dados de cada um dos servidores da Câmara Municipal. 
-Como exemplo, para coletar os dados de janeiro a setembro de 2021 é necessário passar **283** como parâmetro da função `pega_links_servidores()`. Assim, serão percorridas as páginas de 1 a 2018 e extraídos os dados de todos deste período.
+Como exemplo, para coletar os dados de janeiro a setembro de 2021 é necessário passar **283** como parâmetro da função `pega_links_servidores()`. Assim, serão percorridas as páginas de 1 a 283 e extraídos os todos os dados deste período.
 
 ## Bibliotecas
 
@@ -19,5 +19,5 @@ Necessário instalar:
 ## Sobre
 Trabalho final do Master em Jornalismo de Dados, Automação e Data Storytelling, do Insper das disciplinas:
 * **Pensamento Computacional** - elaboração do programa -, professor Álvaro Justen (Turicas)
-* **Transparência, reprodutibilidade e uso éticos dos dados** - documentação do projeto, Natália Mazotte e Carla Vieira
+* **Transparência, reprodutibilidade e uso éticos dos dados** - documentação do projeto, professoras Natália Mazotte e Carla Vieira
 
