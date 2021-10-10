@@ -2,7 +2,8 @@
 Script que raspa os dados da [página de pagamentos e subsídios](https://www.maceio.al.leg.br/transparencia/portal/salarios-subsidios) dos servidores e vereadores da Câmara Municipal de Maceió e exporta as informações para uma planilha do Google Sheets.
 
 ## Metodologia 
-O programa navega pela lista com todos os pagamentos dos servidores e vereadores e coleta as informações de cada um. É possível definir como parâmetro a quantidade de páginas que o scrip vai rodar.
+O programa navega pela lista de páginas do site de transparência com as informações dos pagamentos e extrai os dados de cada um dos servidores da Câmara Municipal. 
+Como exemplo, para coletar os dados de janeiro a setembro de 2021 é necessário passar **283** como parâmetro da função `pega_links_servidores()`. Assim, serão percorridas as páginas de 1 a 2018 e extraídos os dados de todos deste período.
 
 ## Bibliotecas
 
@@ -14,4 +15,9 @@ Necessário instalar:
 * **tqdm** `pip install tqdm`- Adiciona uma barra de progresso ao executar um for
 * **gspread** `pip install gspread` - Conecta com planilhas do Google Sheets
 * **google.oauth2** `pip install google.auth` - Permite acessar APIs do Google
+
+## Sobre
+Trabalho final do Master em Jornalismo de Dados, Automação e Data Storytelling, do Insper das disciplinas:
+* **Pensamento Computacional** - elaboração do programa -, professor Álvaro Justen (Turicas)
+* **Transparência, reprodutibilidade e uso éticos dos dados** - documentação do projeto, Natália Mazotte e Carla Vieira
 
