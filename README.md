@@ -16,6 +16,10 @@ Necessário instalar:
 * **gspread** `pip install gspread` - Conecta com o Google Sheets, que permite importar, atualizar e deletar dados de planilhas;
 * **google.oauth2** `pip install google.auth` - Permite acessar APIs do Google.
 
+## Obter credenciais API Google
+
+Siga as etapas [deste tutorial](https://medium.com/pyladiesbh/gspread-trabalhando-com-o-google-sheets-f12e53ed1346) para autorização de acesso à API do Google Sheets. Esta etapa é necessária para a biblioteca `gspread` funcionar.
+
 ## Sobre
 Trabalho final do Master em Jornalismo de Dados, Automação e Data Storytelling, do Insper das disciplinas:
 * **Pensamento Computacional** - elaboração do programa -, professor Álvaro Justen (Turicas);
