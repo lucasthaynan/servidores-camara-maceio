@@ -18,7 +18,7 @@ Necessário instalar:
 
 ## Obter credenciais API Google
 
-Siga as etapas [deste tutorial](https://medium.com/pyladiesbh/gspread-trabalhando-com-o-google-sheets-f12e53ed1346) para autorização de acesso à API do Google Sheets. Esta etapa é necessária para a biblioteca `gspread` funcionar.
+Siga as etapas [deste tutorial](https://medium.com/pyladiesbh/gspread-trabalhando-com-o-google-sheets-f12e53ed1346)(ou [este outro](https://www.youtube.com/watch?v=ddf5Z0aQPzY&t=17)) para autorização de acesso à API do Google Sheets. Esta etapa é necessária para a biblioteca `gspread` funcionar.
 
 ## Sobre
 Trabalho final do Master em Jornalismo de Dados, Automação e Data Storytelling, do Insper das disciplinas:
