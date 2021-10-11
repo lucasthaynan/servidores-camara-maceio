@@ -3,7 +3,7 @@ Script que raspa os dados da [página de pagamentos e subsídios](https://www.ma
 
 ## Metodologia 
 O programa [`web_scraping_servidores_camara_maceio.ipynb`](https://github.com/lucasthaynan/servidores-camara-maceio/blob/main/web_scraping_servidores_camara_maceio.ipynb) navega pela lista de páginas do site de transparência com as informações dos pagamentos e extrai os dados de cada um dos servidores da Câmara Municipal. 
-Como exemplo, para coletar os dados de janeiro a setembro de 2021 foi necessário passar **283** como parâmetro da função `pega_links_servidores()`. Assim, serão percorridas as páginas de 1 a 283 e extraídos os todos os dados deste período.
+Como exemplo, para coletar os dados de janeiro a setembro de 2021 foi necessário passar a quantidade de páginas **283** como parâmetro da função `pega_links_servidores()`. Assim, serão percorridas as páginas de 1 a 283 e extraídos os todos os dados deste período.
 
 ## Bibliotecas
 
