@@ -15,7 +15,7 @@ Este projeto é importante pois permite coletar e analisar os pagamentos de todo
 * **pandas**
 
 Necessário instalar:
-* **tqdm** `pip install tqdm`- Adiciona uma barra de progresso ao executar um `for`.útil para saber a estimativa do tempo total para execução do código;
+* **tqdm** `pip install tqdm`- Adiciona uma barra de progresso ao executar um `for`. Útil para saber a estimativa do tempo total para execução do código;
 * **gspread** `pip install gspread` - Conecta com o Google Sheets, o que permite importar, atualizar e deletar dados de planilhas;
 * **google.oauth2** `pip install google.auth` - Permite acessar APIs do Google.
 
