@@ -6,7 +6,7 @@ O programa [`web_scraping_servidores_camara_maceio.ipynb`](https://github.com/lu
 Como exemplo, para coletar os dados de janeiro a setembro de 2021 foi necessário passar a quantidade de páginas **283** como parâmetro da função `pega_links_servidores()`. Assim, serão percorridas as páginas de 1 a 283 e extraídos os todos os dados deste período.
 
 ## Por que este projeto é útil?
-Este projeto é importante pois permite coletar e analisar os pagamentos de todos os servidores da Câmara Municipal por grandes períodos, como meses ou até anos. Isso não é possível, visto que a página de transparência do órgão só permite baixar os dados em .XLS de um servidor por vez, o que impossibilita a análise mais ampla destas informações.
+Este projeto é importante pois permite coletar e analisar os pagamentos de todos os servidores da Câmara Municipal por grandes períodos, como meses ou até anos. Diretamente pelo site da Câmara isso não é possível de ser realizado, visto que a página de transparência do órgão só permite baixar os dados em .XLS de um servidor por vez, o que impossibilita a análise mais ampla destas informações.
 
 ## Bibliotecas
 
